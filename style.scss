@@ -217,9 +217,9 @@ p > img {
 
 .site-avatar {
   float: left;
-  width: 70px;
   height: 70px;
   margin-right: 15px;
+  margin-left: 15px;
 
   @include mobile {
     float: none;
@@ -234,6 +234,7 @@ p > img {
 
 .site-info {
   float: left;
+  text-align: 
 
   @include mobile {
     float: none;
@@ -250,6 +251,7 @@ p > img {
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
+  text-align: left;
 }
 
 .site-description {
